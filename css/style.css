@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(117, 168, 255);
+    background-image: url('../img/pattern.png');
+}
+
+#logo{
+    
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.gray{
+    color: rgb(80,80,80);
+}
+
+#data{
+    font-size: 10px;
+}
+
+#sottolineatura{
+    text-decoration: none;
+}
