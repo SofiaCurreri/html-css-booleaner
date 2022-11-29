@@ -24,7 +24,7 @@ h1{
 }
 
 .gray{
-    color: rgb(80,80,80);
+    color: rgb(148, 147, 147);
 }
 
 .piccolo{
@@ -43,4 +43,16 @@ h1{
 
 .highlight{
     background-color: yellow;
+}
+
+.sfondo-1{
+    color: white;
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+}
+
+.sfondo-2{
+    color: white;
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
 }
