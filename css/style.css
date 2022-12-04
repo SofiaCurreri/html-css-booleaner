@@ -1,15 +1,19 @@
-*{
-    text-align: justify;
-    font-size: 20px;
+body{
+    margin: 0;
 }
 
-header{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 170px;
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main-header{
     background-color: rgb(117, 168, 255);
     background-image: url('../img/pattern.png');
+    background-size: 550px;
+    height: 150px;
+    line-height: 100px;
+    position: relative;
 }
 
 #logo{
@@ -19,30 +23,59 @@ header{
     width: 300px;
 }
 
-h1{
-    font-size: 55px;
+.article-title{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+address{
+    font-style: normal;
 }
 
 .gray{
     color: rgb(148, 147, 147);
+    margin-top: 10px;
 }
 
-.piccolo{
+.small{
     font-size: 13px;
 }
 
-#sottolineatura{
-    text-decoration: none;
+figure{
+    margin: 0;
+    margin-top: 20px;
 }
 
-.centratura{
-    width: 45vw;
-    height: 700px;
-    
+ul{
+    padding: 0;
+    list-style-position: inside;
 }
 
-.highlight{
-    background-color: yellow;
+.table-heading{
+    background-color: rgb(5, 142, 227);
+    color: white;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.table-row{
+    background-color: rgb(157, 222, 255);
+}
+
+.table-row.white{
+    background-color: white;
+}
+
+.article-table{
+    text-align: left;
+    border-collapse: collapse;
 }
 
 .sfondo-1{

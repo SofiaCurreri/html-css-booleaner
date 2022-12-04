@@ -9,69 +9,111 @@
 </head>
 
 <body>
-    <header>
-        <img id="logo" src="./img/logo.svg" alt="logo booleaner">
+
+    <header class="main-header">
+        <div class="container">
+            <img id="logo" src="./img/logo.svg" alt="logo booleaner">
+        </div>
     </header>
     
     <main>
-        <h1> Internet deve essere al servizio del "bene pubblico": il <br> manifesto di Tim Berners-Lee </h1>
-        <p class="gray"> 
-            <strong> Scritto da </strong> 
-            <a id="sottolineatura" href="#"> The Booleaner </a> 
-            <br>
-            <span class="piccolo"> il 10/10/2020 </span>
-        </p>
+        <article class="container">
+            <h1 class="article-title"> Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee </h1>
         
-        <picture>
-            <img class= "centratura" src="./img/tim-1.jpg" alt="Foto Tim 1">
-            <img class= "centratura" src="./img/tim-2.jpg" alt="Foto Tim 2">
-        </picture>
+        
+            <div class="article-content">
+                <address class="gray">
+                    <author> Scritto da </author> <a href="#"> The Booleaner </a>
+                    <br>
+                    <time date-time="2020-10-10" class="small"> il 2020/10/10 </time>
+                </address>
+            </div>
+        
+        
+            <figure>
+                <img src="./img/tim-1.jpg" alt="Foto Tim 1">
+                <img src="./img/tim-2.jpg" alt="Foto Tim 2">
+                <figcaption class="small">
+                    1st Photo: John and James Knight Foundation, by Scott
+                    <br>
+                    2nd Photo: Wikimedia, by Paul Clark
+                </figcaption>
+            </figure>
 
-        <p class="piccolo"> 
-            1st Photo: John and James Knight Foundation, by Scott
-            <br>
-            2nd Photo: Wikimedia, by Paul Clark 
-        </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi est sint ad similique voluptas a <mark> nulla non voluptates, nihil nostrum </mark> incidunt eius, deleniti praesentium aspernatur. Officiis error debitis possimus?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, odit eius odio consectetur cum enim quae veritatis explicabo delectus officia deleniti vero nihil autem! Veritatis architecto beatae odit aut ea! Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit.Ipsam eligendi maxime corporis ullam eaque aut nam animi, explicabo veritatis molestiae corrupti nisi, quasi cum id optio debitis odio autem facilis?
+            </p>
 
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi est sint ad similique voluptas a <span class="highlight">nulla non voluptates, nihil nostrum</span> incidunt eius, deleniti praesentium aspernatur. Officiis error debitis possimus?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, odit eius odio consectetur cum enim quae veritatis explicabo delectus officia deleniti vero nihil autem! Veritatis architecto beatae odit aut ea! Lorem ipsum dolor, sit amet consectetur 
-            adipisicing elit. <span class="highlight">Ipsam eligendi maxime corporis ullam</span>eaque aut nam animi, explicabo veritatis molestiae corrupti nisi, quasi cum id optio debitis odio autem facilis?
-        </p>
+            <ul>
+                <li> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis eum asperiores eaque voluptate cupiditate, quia possimus. Deleniti dolorem, tempore dolore vero </li>
+                <li> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero delectus nihil!</li>
+            </ul>
 
-        <ul style="padding-left: 20px;">
-            <li> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis eum asperiores eaque voluptate cupiditate, quia possimus. Deleniti dolorem, tempore dolore vero voluptatem ullam nostrum tempora </li>
-            <li> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero delectus nihil!</li>
-        </ul>
+            <table class="article-table">
+                <thead>
+                    <tr class="table-heading">
+                        <th> Lorem ipsum dolor</th>
+                        <th> Lorem ipsum dolor</th>
+                        <th class="w-50"> Lorem ipsum dolor</th>
+                    </tr>
+                </thead>
 
-        <table>
-            <thead>
-                <th>
-                    <td> Lorem ipsum dolor</td>
-                    <td> Lorem ipsum dolor</td>
-                    <td> Lorem ipsum dolor</td>
-                </th>
-            </thead>
+                <tbody>
+                    <tr class="table-row">
+                        <td> Lorem ipsum dolor</td>
+                        <td> Lorem ipsum dolor</td>
+                        <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea provident repellendus consectetur esse. Autem eius neque illo omnis, quisquam sunt dolorum! Totam dolore iure reiciendis
+                          aperiam impedit magnam inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis qui nemo illum ab blanditiis aperiam atque quidem laborum dignissimos voluptatum, 
+                          quod inventore aliquid et dolorum corporis nam? Quibusdam, veritatis consectetur?
+                        </td>
+                    </tr>
 
-            <tbody></tbody>
+                    <tr class="table-row white">
+                        <td> Lorem ipsum dolor</td>
+                        <td> Lorem ipsum dolor</td>
+                        <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea provident repellendus consectetur esse. Autem
+                            eius neque illo omnis, quisquam sunt dolorum! Totam dolore iure reiciendis
+                            aperiam impedit magnam inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis qui nemo illum
+                            ab blanditiis aperiam atque quidem laborum dignissimos voluptatum,
+                            quod inventore aliquid et dolorum corporis nam? Quibusdam, veritatis consectetur?
+                        </td>
+                    </tr>
+
+                    <tr class="table-row">
+                        <td> Lorem ipsum dolor</td>
+                        <td> Lorem ipsum dolor</td>
+                        <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea provident repellendus consectetur esse. Autem
+                            eius neque illo omnis, quisquam sunt dolorum! Totam dolore iure reiciendis
+                            aperiam impedit magnam inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis qui nemo illum
+                            ab blanditiis aperiam atque quidem laborum dignissimos voluptatum,
+                            quod inventore aliquid et dolorum corporis nam? Quibusdam, veritatis consectetur?
+                        </td>
+                    </tr>
+                </tbody>
 
             
-        </table>
+            </table>
 
-        <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ad, esse eligendi eaque incidunt voluptatibus facere deleniti dolor quidem sequi rem eum! Sit delectus ducimus nam, libero animi commodi cumque tempore id ullam sed voluptatum dignissimos labore facilis, voluptatem quaerat pariatur laboriosam. Architecto vero, <span class="highlight"> nemo veritatis eligendi </span> necessitatibus repellendus? Eveniet ab sit, vero molestiae consequatur ipsam eum est nulla voluptatem voluptates hic, delectus soluta iste maxime dignissimos, similique quos deleniti odio iusto amet officiis esse porro! Sequi iure esse quas aspernatur quia quae, earum dolores dolor commodi tempore quos. Aliquid minima laborum excepturi numquam eum ad autem ratione! Non, ratione!
-        </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ad, esse eligendi eaque incidunt voluptatibus
+                facere deleniti dolor quidem sequi rem eum! Sit delectus ducimus nam, libero animi commodi cumque tempore id ullam sed voluptatum dignissimos labore facilis, voluptatem quaerat pariatur laboriosam. Architecto vero,
+                <mark> nemo veritatis eligendi </mark> necessitatibus repellendus? Eveniet ab sit, vero molestiae consequatur ipsam eum est nulla voluptatem voluptates hic, delectus soluta iste maxime dignissimos, similique quos
+                deleniti odio iusto amet officiis esse porro! Sequi iure esse quas aspernatur quia quae, earum dolores dolor commodi tempore quos. Aliquid minima laborum excepturi numquam eum ad autem ratione! Non, ratione!
+            </p>
 
-        <p class="gray"> <strong> Potrebbero interessarti </strong></p>
+            <p class="gray"> <strong> Potrebbero interessarti </strong></p>
 
-        <div class="sfondo-1">
-            <strong>Lorem ipsum dolor</strong>
-        </div>
+            <div class="sfondo-1">
+                <strong>Lorem ipsum dolor</strong>
+            </div>
 
-        <div class="sfondo-2">
-            <strong>Lorem ipsum dolor</strong>
-        </div>
+            <div class="sfondo-2">
+                <strong>Lorem ipsum dolor</strong>
+            </div>
+        </article>
     </main>
 </body>
 </html>
