@@ -78,14 +78,20 @@ ul{
     border-collapse: collapse;
 }
 
-.sfondo-1{
-    color: white;
-    background-image: url('../img/monitor.jpg');
+.pic{
+    width: 200px;
+    height: 160px;
+    background-size: contain;
     background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
 
-.sfondo-2{
-    color: white;
-    background-image: url('../img/graph.jpg');
-    background-repeat: no-repeat;
+#monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph{
+    background-image: url(../img/graph.jpg);
 }
